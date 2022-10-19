@@ -1,0 +1,137 @@
+.product-card {
+  width: 307px;
+  max-width: 307px;
+  padding: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.favorite-icon {
+  width: 20px;
+  position: absolute;
+  top: 35px;
+  right: 34px;
+  cursor: pointer;
+}
+
+.badges-container {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  display: inline-flex;
+  gap: 4px;
+}
+
+.badge {
+  border-radius: 4px;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.hit-badge {
+  background-color: #f53d3d;
+}
+
+.sale-badge {
+  background-color: #11c66c;
+}
+
+.card-image {
+  width: 275px;
+}
+
+.data-container {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.composition {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.prices-row {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--black-color);
+}
+
+.prices-error {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.current-price-discount {
+  color: #f20d0d;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.data-row {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--light-text-color);
+}
+
+.data-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8.5px;
+}
+
+.button-row {
+  display: inline-flex;
+  direction: row;
+  gap: 11px;
+  margin-top: auto;
+}
+
+.button {
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--black-color);
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.button-green {
+  background-color: #cff4e2;
+}
+
+.button-green:hover:not(:disabled) {
+  background-color: #70dda7;
+}
+
+.button-green:disabled {
+  background-color: #cff4e2;
+}
+
+.button-gray {
+  background-color: #f6f6f6;
+}
